@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7AA5AD831D81F1490050998F /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 7AA5AD821D81F1490050998F /* main.c */; };
+		7AB395911D85E89700192C84 /* Utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 7AB3958F1D85E89700192C84 /* Utils.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		7AA5AD7F1D81F1490050998F /* MaxCliqueGrafo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MaxCliqueGrafo; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA5AD821D81F1490050998F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		7AB3958F1D85E89700192C84 /* Utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Utils.c; sourceTree = "<group>"; };
+		7AB395901D85E89700192C84 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				7AA5AD821D81F1490050998F /* main.c */,
+				7AB3958F1D85E89700192C84 /* Utils.c */,
+				7AB395901D85E89700192C84 /* Utils.h */,
 			);
 			path = MaxCliqueGrafo;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AA5AD831D81F1490050998F /* main.c in Sources */,
+				7AB395911D85E89700192C84 /* Utils.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +245,7 @@
 				7AA5AD881D81F1490050998F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
